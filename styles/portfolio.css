@@ -26,6 +26,10 @@ body{
     border-radius: 5px;
     text-align: center;
 }
+hr{
+    width:100%;
+    margin:20px 0;
+}
 /* ---------reset code ends ---------------------------------*/
 
 .header-img{
@@ -183,4 +187,49 @@ nav h3{
     font-size: 16px;
     color:#757575;
     line-height: 30px;
+}
+.education{
+    padding:130px 230px;
+
+}
+.education h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:100px;
+}
+.education-summery{
+    display: flex;
+    justify-content: center;
+}
+.education-details{
+    display: flex;
+    gap:70px;
+    width:1140px;
+}
+.edu-info h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.edu-work-info{
+    width:511px;
+    height:180px;
+}
+.edu-work-info h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.edu-work-info h5{
+    font-size: 20px;
+    color:#757575;
+    margin-bottom: 20px;
+}
+.edu-work-info p{
+    font-size: 16px;
+    color:#757575;
+    margin-bottom: 30px;
+}
+.edu-btn{
+    text-align: center;
+    margin-top: 30px;
 }
