@@ -89,3 +89,45 @@ nav h3{
     display: flex;
     gap:30px;
 }
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:130px 230px;
+}
+.about-me{
+    width:1140px;
+    height:560px;
+    padding:130px 150px;
+    background-color: rgb(255, 248, 243);
+}
+.about-title{
+    width:827px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    padding:10px;
+    border: 1px solid black;
+}
+.about-title h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin:0px 30px 30px 30px;
+
+}
+.about-title > p{
+    color:#757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.about-description{
+    display: flex;
+    gap:30px;
+}
+.about-description p{
+    color:#757575;
+    font-size: 18px;
+}
